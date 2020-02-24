@@ -7,20 +7,14 @@ This example will have tags, symentic releases, github releases and tarballs and
 * GCC Tools set for OSX
 * Ruby Gems:
   * bump & mustache
+* npm
 * npm install -g github-release-cli
+* GITHUB_TOKEN loaded in ENV
   
-## Manipulate Content
+## Manipulate and Publish
 
-```
+```shell
+bump pre
 ./build.sh
+./release.sh
 ```
-
-## Github push etc..
-
-```
-release.sh
-```
-
-## Bump 
-
-Using rubygem `bump` .. bump what ever you want.
