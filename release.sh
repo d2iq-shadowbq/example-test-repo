@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+git push origin master
+git push origin --tags
 VERSION=$(cat VERSION)
 github-release upload \
   --owner d2iq-shadowbq \
